@@ -50,22 +50,22 @@ const Home = () => {
                     <p className='font-[600] text-heading-color text-[18px]'>Payment Done</p>
                     {/* <img src="./images/svg-image-5.svg" alt="" /> */}
                     <img src="./images/thumbnail.png" alt="" className='w-[150px]' />
-                    <p>Pay with a Visa or PayPal card and without much ado.</p>
-                    <p className='font-[600] text-heading-color'>Learn More</p>
+                    <p className='text-text-color'>Pay with a Visa or PayPal card and without much ado.</p>
+                    {/* <p className='font-[600] text-heading-color'>Learn More</p> */}
                 </div>
                 <div className='flex items-center justify-center text-center flex-col shadow-md rounded-[12px] py-8 px-6 gap-[20px]'>
                     <p className='font-[600] text-heading-color text-[18px]'>Find Your Product</p>
                     {/* <img src="./images/svg-image-6.svg" alt="" /> */}
                     <img src="./images/thumbnail.png" alt="" className='w-[150px]' />
-                    <p>We offer sale of products through the Internet.</p>
-                    <p className='font-[600] text-heading-color'>Learn More</p>
+                    <p className='text-text-color'>We offer sale of products through the Internet.</p>
+                    {/* <p className='font-[600] text-heading-color'>Learn More</p> */}
                 </div>
                 <div className='flex items-center justify-center text-center flex-col shadow-md rounded-[12px] py-8 px-6 gap-[20px]'>
                     <p className='font-[600] text-heading-color text-[18px]'>Product Received</p>
                     {/* <img src="./images/svg-image-7.svg" alt="" /> */}
                     <img src="./images/thumbnail.png" alt="" className='w-[150px]' />
-                    <p>In our app you can see the delay time of your order.</p>
-                    <p className='font-[600] text-heading-color'>Learn More</p>
+                    <p className='text-text-color'>In our app you can see the delay time of your order.</p>
+                    {/* <p className='font-[600] text-heading-color'>Learn More</p> */}
                 </div>
             </div>
         </section>
@@ -97,9 +97,9 @@ const Home = () => {
                 <p className='text-text-color'>You can contact us from here, you can write to us, call us or visit our service center, we will gladly assist you.</p>
             </div>
             <div className='font-[500] flex gap-[1rem] flex-col text-text-color mb-[2.5rem]'>
-                <p><i class="ri-phone-line text-[20px]"></i>: 123 - 456 - 789</p>
-                <p><i class="ri-mail-line text-[20px]"></i>: delivery@email.com</p>
-                <p><i class="ri-map-pin-line text-[20px]"></i>: Planet Earth</p>
+                <p><i class="ri-phone-line text-[20px] text-primary-color"></i>: 123 - 456 - 789</p>
+                <p><i class="ri-mail-line text-[20px] text-primary-color"></i>: delivery@email.com</p>
+                <p><i class="ri-map-pin-line text-[20px] text-primary-color"></i>: Planet Earth</p>
             </div>
             <div>
                 <button className='bg-primary-color text-white px-5 py-2 rounded-full'>Contact Us</button>

@@ -31,7 +31,7 @@ const Navbar = () => {
           <i class="ri-menu-3-line"></i>
           <i class="ri-close-fill hidden"></i>
         </div>
-      <ul className='flex items-center justify-between gap-7'>
+      <ul className='flex items-center justify-between gap-7 text-[14px] text-gray-600'>
         <li>
           <Link to='/'>Home</Link>
         </li>

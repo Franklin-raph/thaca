@@ -40,7 +40,7 @@ const Footer = () => {
 
   return (
     <div className='bg-primary-color text-white'>
-      <div className='flex items-start justify-between md:flex-row flex-col gap-[2rem] md:gap-[5rem] mt-[2rem] py-[3rem] lg:px-[6rem] px-8'>
+      <div className='flex items-start justify-between md:flex-row flex-col gap-[2rem] md:gap-[3rem] mt-[2rem] py-[3rem] lg:px-[6rem] px-8'>
         <div className='w-full'>
           <Link to="/" className='mb-5 block'>
             Logo.
