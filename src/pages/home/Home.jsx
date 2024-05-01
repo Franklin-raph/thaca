@@ -21,7 +21,7 @@ const Home = () => {
             </div>
         </main>
 
-        <section className='my-[12rem] flex md:flex-row-reverse items-center justify-between mx-auto flex-col'>
+        <section className='my-[6rem] md:my-[12rem] flex md:flex-row-reverse items-center justify-between mx-auto flex-col'>
             <div className='md:w-[50%] md:mt-0 mb-10 text-center md:text-left'>
                 <h1 className='text-[24px] font-[600] text-heading-color'>Find Out A Little More About Us</h1>
                 <p className='text-text-color my-3'>We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.</p>
@@ -43,7 +43,7 @@ const Home = () => {
             </div>
         </section>
 
-        <section className='my-[12rem]'>
+        <section className='my-[6rem] md:my-[12rem]'>
             <p className='text-center text-[20px] font-[600] text-heading-color mb-10'>Some Services We Offer</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                 <div className='flex items-center justify-center text-center flex-col shadow-md rounded-[12px] py-8 px-6 gap-[28px]'>
@@ -91,12 +91,12 @@ const Home = () => {
             </div>
         </section>
 
-        <section className='my-[7rem] flex items-center justify-between md:flex-row flex-col' id='contact-us'>
+        <section className='my-[7rem] flex items-start md:items-center justify-between md:flex-row flex-col' id='contact-us'>
             <div className='md:w-[40%] md:mt-0 mb-10'>
                 <p className='text-[20px] text-heading-color mb-5 font-[600]'>Contact Us From Here</p>
                 <p className='text-text-color'>You can contact us from here, you can write to us, call us or visit our service center, we will gladly assist you.</p>
             </div>
-            <div className='font-[500] flex gap-[1rem] flex-col text-text-color'>
+            <div className='font-[500] flex gap-[1rem] flex-col text-text-color mb-[2.5rem]'>
                 <p><i class="ri-phone-line text-[20px]"></i>: 123 - 456 - 789</p>
                 <p><i class="ri-mail-line text-[20px]"></i>: delivery@email.com</p>
                 <p><i class="ri-map-pin-line text-[20px]"></i>: Planet Earth</p>
