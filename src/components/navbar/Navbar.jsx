@@ -22,7 +22,7 @@ const Navbar = () => {
   },[])
 
   return (
-    <nav className='flex items-center justify-between shadow-sm fixed w-full bg-white z-10 px-[5rem] py-4'>
+    <nav className='flex items-center justify-between shadow-sm fixed w-full bg-white z-10 px-[3rem] md:px-[5rem] py-4'>
       <Link>
         {/* <img src="./vite.svg" alt="" /> */}
         Logo.
