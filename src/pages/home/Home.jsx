@@ -16,8 +16,8 @@ const Home = () => {
                 </div>
             </div>
             <div className='bg-white w-[75%] md:w-[45%]'>
-                <img src="./images/svg-image-2.svg" alt="" />
-                {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
+                {/* <img src="./images/svg-image-2.svg" alt="" /> */}
+                <img src="./images/thumbnail.png" alt="" className='w-[300px]' />
             </div>
         </main>
 
@@ -27,8 +27,8 @@ const Home = () => {
                 <p className='text-text-color my-3'>We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.</p>
             </div>
             <div className='bg-white w-[75%] md:w-[45%]'>
-                <img src="./images/svg-image-3.svg" alt="" />
-                {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
+                {/* <img src="./images/svg-image-3.svg" alt="" /> */}
+                <img src="./images/thumbnail.png" alt="" className='w-[300px]' />
             </div>
         </section>
 
@@ -38,8 +38,8 @@ const Home = () => {
                 <p className='text-text-color my-3'>When your order reaches you, we have the health safety protocols, so that you are protected from any disease. Watch the video of how the delivery is made.</p>
             </div>
             <div className='bg-white w-[75%] md:w-[45%]'>
-                <img src="./images/svg-image-4.svg" alt="" />
-                {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
+                {/* <img src="./images/svg-image-4.svg" alt="" /> */}
+                <img src="./images/thumbnail.png" alt="" className='w-[300px]' />
             </div>
         </section>
 
@@ -86,8 +86,8 @@ const Home = () => {
                 </div>
             </div>
             <div className='bg-white w-[75%] md:w-[45%]'>
-            {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
-                <img src="./images/svg-image-8.svg" alt="" />
+            <img src="./images/thumbnail.png" alt="" className='w-[300px]' />
+                {/* <img src="./images/svg-image-8.svg" alt="" /> */}
             </div>
         </section>
 
