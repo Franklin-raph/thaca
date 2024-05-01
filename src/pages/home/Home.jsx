@@ -74,14 +74,14 @@ const Home = () => {
             <div className='md:w-[50%] md:mt-0 mb-10 text-center md:text-left'>
                 <h1 className='text-[24px] font-[600] text-heading-color'>Watch Your Delivery At Any Time</h1>
                 <p className='text-text-color my-3'>With our app you can view the route of your order, from our local headquarters to the place where you are. <br /> Look for the app now!</p>
-                <div className='flex items-center justify-center md:justify-start gap-5'>
+                <div className='flex flex-col sm:flex-row items-center justify-center md:justify-start gap-5'>
                     <button className='bg-primary-color text-white px-5 py-2 rounded-full flex items-center gap-2'>
                         <i class="ri-apple-line text-[20px]"></i>
-                        Apple Store
+                        <p>Apple Store</p>
                     </button>
                     <button className='bg-primary-color text-white px-5 py-2 rounded-full flex items-center gap-2'>
                         <i class="ri-google-play-line text-[20px]"></i>
-                        Google Play
+                        <p>Google Play</p>
                     </button>
                 </div>
             </div>
