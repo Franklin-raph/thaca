@@ -16,8 +16,8 @@ const Home = () => {
                 </div>
             </div>
             <div className='bg-white w-[75%] md:w-[45%]'>
-                {/* <img src="./images/svg-image-2.svg" alt="" /> */}
-                <img src="./images/thumbnail.png" alt="" className='w-[300px]' />
+                <img src="./images/svg-image-2.svg" alt="" />
+                {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
             </div>
         </main>
 
@@ -27,8 +27,8 @@ const Home = () => {
                 <p className='text-text-color my-3'>We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.</p>
             </div>
             <div className='bg-white w-[75%] md:w-[45%]'>
-                {/* <img src="./images/svg-image-3.svg" alt="" /> */}
-                <img src="./images/thumbnail.png" alt="" className='w-[300px]' />
+                <img src="./images/svg-image-3.svg" alt="" />
+                {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
             </div>
         </section>
 
@@ -38,8 +38,8 @@ const Home = () => {
                 <p className='text-text-color my-3'>When your order reaches you, we have the health safety protocols, so that you are protected from any disease. Watch the video of how the delivery is made.</p>
             </div>
             <div className='bg-white w-[75%] md:w-[45%]'>
-                {/* <img src="./images/svg-image-4.svg" alt="" /> */}
-                <img src="./images/thumbnail.png" alt="" className='w-[300px]' />
+                <img src="./images/svg-image-4.svg" alt="" />
+                {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
             </div>
         </section>
 
@@ -48,29 +48,29 @@ const Home = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                 <div className='flex items-center justify-center text-center flex-col shadow-md rounded-[12px] py-8 px-6 gap-[28px]'>
                     <p className='font-[600] text-heading-color text-[18px]'>Payment Done</p>
-                    {/* <img src="./images/svg-image-5.svg" alt="" /> */}
-                    <img src="./images/thumbnail.png" alt="" className='w-[150px]' />
+                    <img src="./images/svg-image-5.svg" alt="" />
+                    {/* <img src="./images/thumbnail.png" alt="" className='w-[150px]' /> */}
                     <p className='text-text-color'>Pay with a Visa or PayPal card and without much ado.</p>
                     {/* <p className='font-[600] text-heading-color'>Learn More</p> */}
                 </div>
                 <div className='flex items-center justify-center text-center flex-col shadow-md rounded-[12px] py-8 px-6 gap-[20px]'>
                     <p className='font-[600] text-heading-color text-[18px]'>Find Your Product</p>
-                    {/* <img src="./images/svg-image-6.svg" alt="" /> */}
-                    <img src="./images/thumbnail.png" alt="" className='w-[150px]' />
+                    <img src="./images/svg-image-6.svg" alt="" />
+                    {/* <img src="./images/thumbnail.png" alt="" className='w-[150px]' /> */}
                     <p className='text-text-color'>We offer sale of products through the Internet.</p>
                     {/* <p className='font-[600] text-heading-color'>Learn More</p> */}
                 </div>
                 <div className='flex items-center justify-center text-center flex-col shadow-md rounded-[12px] py-8 px-6 gap-[20px]'>
                     <p className='font-[600] text-heading-color text-[18px]'>Product Received</p>
-                    {/* <img src="./images/svg-image-7.svg" alt="" /> */}
-                    <img src="./images/thumbnail.png" alt="" className='w-[150px]' />
+                    <img src="./images/svg-image-7.svg" alt="" />
+                    {/* <img src="./images/thumbnail.png" alt="" className='w-[150px]' /> */}
                     <p className='text-text-color'>In our app you can see the delay time of your order.</p>
                     {/* <p className='font-[600] text-heading-color'>Learn More</p> */}
                 </div>
             </div>
         </section>
 
-        <section className='flex md:flex-row-reverse items-center justify-between mx-auto flex-col'>
+        <section id='app-section' className='flex md:flex-row-reverse items-center justify-between mx-auto flex-col'>
             <div className='md:w-[50%] md:mt-0 mb-10 text-center md:text-left'>
                 <h1 className='text-[24px] font-[600] text-heading-color'>Watch Your Delivery At Any Time</h1>
                 <p className='text-text-color my-3'>With our app you can view the route of your order, from our local headquarters to the place where you are. <br /> Look for the app now!</p>
@@ -86,8 +86,8 @@ const Home = () => {
                 </div>
             </div>
             <div className='bg-white w-[75%] md:w-[45%]'>
-            <img src="./images/thumbnail.png" alt="" className='w-[300px]' />
-                {/* <img src="./images/svg-image-8.svg" alt="" /> */}
+            {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
+                <img src="./images/svg-image-8.svg" alt="" />
             </div>
         </section>
 
